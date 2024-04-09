@@ -14,9 +14,13 @@ public class PlayerController : MonoBehaviour
 
     public ProjectileBehavior ProjectilePrefab;
     public Transform LaunchOffset;
+    [SerializeField] private GameObject bullet;
+    private GameObject bulletInst;
 
     public float fireRate = 1f;
     private float nextFire;
+
+    public int healthpoints = 5;
 
     // Use this for initialization
     void Start()
@@ -32,15 +36,18 @@ public class PlayerController : MonoBehaviour
 
         transform.rotation = Quaternion.Lerp(Quaternion_Rotate_From, Quaternion_Rotate_To, Time.deltaTime * Rotation_Smoothness);
 
-        //
+        HandleShooting();
+    }
 
-        if(Input.GetKey(KeyCode.Space))
+    private void HandleShooting()
+    {
+        if (Input.GetKey(KeyCode.Space))
         {
             if (Time.time > nextFire)
             {
                 nextFire = Time.time + fireRate;
 
-                Instantiate(ProjectilePrefab, LaunchOffset.position, transform.rotation);
+                bulletInst = Instantiate(bullet, LaunchOffset.position, transform.rotation);
             }
         }
     }

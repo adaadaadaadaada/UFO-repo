@@ -5,6 +5,8 @@ using System.Threading;
 
 public class UfoMovement : MonoBehaviour
 {
+    public SpawnManager spawnManager;
+
     public Animator animator;
 
     private Rigidbody2D rb;
@@ -29,6 +31,7 @@ public class UfoMovement : MonoBehaviour
     {
         if (collision.CompareTag("BottomScreen"))
         {
+            spawnManager.ufoCount--;
             Destroy(gameObject);
         }
 

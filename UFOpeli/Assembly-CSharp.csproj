@@ -60,6 +60,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ProjectileBehavior.cs" />
     <Compile Include="Assets\Scripts\UfoMovement.cs" />
+    <Compile Include="Assets\Scripts\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\UImanager.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
