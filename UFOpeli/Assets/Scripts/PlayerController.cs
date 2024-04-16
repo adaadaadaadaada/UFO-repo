@@ -3,7 +3,6 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-
     public float Rotation_Speed;
     public float Rotation_Friction; //The smaller the value, the more Friction there is. [Keep this at 1 unless you know what you are doing].
     public float Rotation_Smoothness; //Believe it or not, adjusting this before anything else is the best way to go.

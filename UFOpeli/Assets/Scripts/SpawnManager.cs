@@ -4,13 +4,13 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
-{public float timeBetweenWaves = 5.0f;
+{
+    public float timeBetweenWaves = 5.0f;
     public int waveCount;
 
     public bool waveIsDone = true;
 
     public GameObject ufoWave;
-    public int ufoCount;
 
     private void Update()
     {
@@ -26,8 +26,11 @@ public class SpawnManager : MonoBehaviour
 
         for (int i = 0; i < 1; i++)
         {
-            ufoCount = 10;
+            UImanager.ufoCount += 10;
+            UfoMovement.hasHitBottomScreen = false;
+
             Instantiate(ufoWave);
+            print("ufocount" + UImanager.ufoCount);
         }
 
         yield return new WaitForSeconds(timeBetweenWaves);
