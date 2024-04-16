@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UImanager : MonoBehaviour
 {
@@ -11,13 +13,17 @@ public class UImanager : MonoBehaviour
     /// </summary>
     /// 
 
+    public Health health;
+
     public static int ufoCount;
     public static int ufosShot;
     public static int ufosMissed;
 
+    
     private void Update()
     {
         print(ufosMissed);
     }
 
+    
 }

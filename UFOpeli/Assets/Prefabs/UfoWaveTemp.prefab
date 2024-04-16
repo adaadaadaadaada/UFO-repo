@@ -238,6 +238,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 4911417438547313643}
   damage: 1
+  ufoHealth: 2
 --- !u!1 &1672702339526021554
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,6 +436,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 2584121478689509549}
   damage: 1
+  ufoHealth: 1
 --- !u!1 &1919132176237757733
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +634,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 6428770043994896573}
   damage: 1
+  ufoHealth: 1
 --- !u!1 &2980707013358063362
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,6 +832,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 4777058506863145729}
   damage: 1
+  ufoHealth: 1
 --- !u!1 &4141090529173167150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,6 +1030,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 5541428712529232831}
   damage: 1
+  ufoHealth: 1
 --- !u!1 &5101535455047608835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,6 +1228,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 5784002586897780410}
   damage: 1
+  ufoHealth: 1
 --- !u!1 &6136941156960339627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1426,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 4644309635578013710}
   damage: 1
+  ufoHealth: 2
 --- !u!1 &6513091738090716177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,6 +1624,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 6187531333092544734}
   damage: 1
+  ufoHealth: 2
 --- !u!1 &7812828506201546725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1814,6 +1822,7 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 8426424383121419517}
   damage: 1
+  ufoHealth: 2
 --- !u!1 &8408980891129428049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,3 +2020,4 @@ MonoBehaviour:
   health: {fileID: 0}
   animator: {fileID: 944662923420890308}
   damage: 1
+  ufoHealth: 2

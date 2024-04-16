@@ -8,14 +8,12 @@ public class UfoMovement : MonoBehaviour
     public static bool hasHitBottomScreen = false;
 
     public UImanager uimanager;
-
     public Health health;
-
     public Animator animator;
-
     private Rigidbody2D rb;
 
     [SerializeField] private float damage = 1.0f;
+    [SerializeField] private int ufoHealth;
 
     private void Start()
     {
@@ -67,10 +65,13 @@ public class UfoMovement : MonoBehaviour
 
         if (collision.CompareTag("Projectile"))
         {
-            animator.SetBool("hit", true);
-            Destroy(gameObject, 0.1f);
+            ufoHealth -= 1;
 
-            //ufo 1 = 1p, ufo 2 = 2p
+            if (ufoHealth == 0)
+            {
+                animator.SetBool("hit", true);
+                Destroy(gameObject, 0.1f);
+            }
         }
     }
 }

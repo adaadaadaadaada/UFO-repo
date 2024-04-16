@@ -12,8 +12,6 @@ public class Health : MonoBehaviour
     private void Awake()
     {
         currentHealth = startingHealth;
-
-        
     }
 
     private void Update()

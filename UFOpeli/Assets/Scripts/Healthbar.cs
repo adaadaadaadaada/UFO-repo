@@ -9,6 +9,8 @@ public class Healthbar : MonoBehaviour
     [SerializeField] private Image totalhealthBar;
     [SerializeField] private Image currenthealthBar;
 
+    public static bool emptyHearts = false;
+
     private void Start()
     {
         totalhealthBar.fillAmount = playerHealth.currentHealth / 10;
@@ -17,5 +19,10 @@ public class Healthbar : MonoBehaviour
     private void Update()
     {
         currenthealthBar.fillAmount = playerHealth.currentHealth / 10;
+
+        if (playerHealth.currentHealth == 0)
+        {
+            emptyHearts = true;
+        }
     }
 }
