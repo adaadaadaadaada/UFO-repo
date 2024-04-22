@@ -17,13 +17,16 @@ public class UImanager : MonoBehaviour
 
     public static int ufoCount;
     public static int ufosShot;
-    public static int ufosMissed;
+    public static int score = 0;
+    Text scoreText;
 
-    
-    private void Update()
+    private void Start()
     {
-        print(ufosMissed);
+        scoreText = GetComponent<Text>();
     }
 
-    
+    private void Update()
+    {
+        scoreText.text = "Score: " + score;
+    }
 }

@@ -26,11 +26,11 @@ public class SpawnManager : MonoBehaviour
 
         for (int i = 0; i < 1; i++)
         {
-            UImanager.ufoCount += 10;
+            UImanager.ufoCount = 10;
             UfoMovement.hasHitBottomScreen = false;
 
             Instantiate(ufoWave);
-            print("ufocount" + UImanager.ufoCount);
+            print("aalto alkaa, ufocount: " + UImanager.ufoCount);
         }
 
         yield return new WaitForSeconds(timeBetweenWaves);

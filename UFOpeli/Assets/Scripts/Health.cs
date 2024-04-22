@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    private int damage = 1;
-
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
 
@@ -22,7 +20,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
-        print("damage");
+        //print("player has taken damage");
 
         if (currentHealth > 0)
         {

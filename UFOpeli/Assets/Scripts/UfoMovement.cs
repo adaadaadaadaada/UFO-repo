@@ -14,6 +14,7 @@ public class UfoMovement : MonoBehaviour
 
     [SerializeField] private float damage = 1.0f;
     [SerializeField] private int ufoHealth;
+    [SerializeField] private int ufoScore;
 
     private void Start()
     {
@@ -48,16 +49,13 @@ public class UfoMovement : MonoBehaviour
             UImanager.ufoCount -= 1;
             hasHitBottomScreen = true;
 
-            print("ufo osu alas");
-            print("ufocount " + UImanager.ufoCount);
-
             Destroy(gameObject);
 
             if (UImanager.ufoCount == 0)
             {
+                print("ufocount: " + UImanager.ufoCount);
                 if (UfoMovement.hasHitBottomScreen == true)
                 {
-                    print("ufo has hit bottomn screen");
                     health.TakeDamage(damage);
                 }
             }
@@ -66,11 +64,13 @@ public class UfoMovement : MonoBehaviour
         if (collision.CompareTag("Projectile"))
         {
             ufoHealth -= 1;
+            UImanager.ufoCount -= 1;
 
             if (ufoHealth == 0)
             {
                 animator.SetBool("hit", true);
                 Destroy(gameObject, 0.1f);
+                UImanager.score += ufoScore;
             }
         }
     }

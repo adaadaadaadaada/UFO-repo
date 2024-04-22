@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 31266366219513099}
   - component: {fileID: 4911417438547313643}
   - component: {fileID: 33376430715318431}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -239,6 +239,7 @@ MonoBehaviour:
   animator: {fileID: 4911417438547313643}
   damage: 1
   ufoHealth: 2
+  ufoScore: 2
 --- !u!1 &1672702339526021554
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +254,7 @@ GameObject:
   - component: {fileID: 2169434761370217048}
   - component: {fileID: 2584121478689509549}
   - component: {fileID: 7848644713415545575}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo2
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -437,6 +438,7 @@ MonoBehaviour:
   animator: {fileID: 2584121478689509549}
   damage: 1
   ufoHealth: 1
+  ufoScore: 1
 --- !u!1 &1919132176237757733
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,7 +453,7 @@ GameObject:
   - component: {fileID: 7091306952541987884}
   - component: {fileID: 6428770043994896573}
   - component: {fileID: 1705796401645754007}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo2 (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -635,6 +637,7 @@ MonoBehaviour:
   animator: {fileID: 6428770043994896573}
   damage: 1
   ufoHealth: 1
+  ufoScore: 1
 --- !u!1 &2980707013358063362
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,7 +652,7 @@ GameObject:
   - component: {fileID: 8039246900482492181}
   - component: {fileID: 4777058506863145729}
   - component: {fileID: 757106634464753107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo2 (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -833,6 +836,7 @@ MonoBehaviour:
   animator: {fileID: 4777058506863145729}
   damage: 1
   ufoHealth: 1
+  ufoScore: 1
 --- !u!1 &4141090529173167150
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +851,7 @@ GameObject:
   - component: {fileID: 1949976429173185539}
   - component: {fileID: 5541428712529232831}
   - component: {fileID: 50758024856166582}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo2 (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1031,6 +1035,7 @@ MonoBehaviour:
   animator: {fileID: 5541428712529232831}
   damage: 1
   ufoHealth: 1
+  ufoScore: 1
 --- !u!1 &5101535455047608835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,7 +1050,7 @@ GameObject:
   - component: {fileID: 2641672951319012514}
   - component: {fileID: 5784002586897780410}
   - component: {fileID: 6909241165857830097}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo2 (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1229,6 +1234,7 @@ MonoBehaviour:
   animator: {fileID: 5784002586897780410}
   damage: 1
   ufoHealth: 1
+  ufoScore: 1
 --- !u!1 &6136941156960339627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,7 +1249,7 @@ GameObject:
   - component: {fileID: 3835358915402372285}
   - component: {fileID: 4644309635578013710}
   - component: {fileID: 4447994494694330907}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1427,6 +1433,7 @@ MonoBehaviour:
   animator: {fileID: 4644309635578013710}
   damage: 1
   ufoHealth: 2
+  ufoScore: 2
 --- !u!1 &6513091738090716177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,7 +1448,7 @@ GameObject:
   - component: {fileID: 8579658675028779165}
   - component: {fileID: 6187531333092544734}
   - component: {fileID: 1651350179602659573}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1625,6 +1632,7 @@ MonoBehaviour:
   animator: {fileID: 6187531333092544734}
   damage: 1
   ufoHealth: 2
+  ufoScore: 2
 --- !u!1 &7812828506201546725
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1647,7 @@ GameObject:
   - component: {fileID: 8754414036143517953}
   - component: {fileID: 8426424383121419517}
   - component: {fileID: 4910892933584601510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1823,6 +1831,7 @@ MonoBehaviour:
   animator: {fileID: 8426424383121419517}
   damage: 1
   ufoHealth: 2
+  ufoScore: 2
 --- !u!1 &8408980891129428049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +1846,7 @@ GameObject:
   - component: {fileID: 4645821221206006458}
   - component: {fileID: 944662923420890308}
   - component: {fileID: 8369554938469602475}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ufo (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2021,3 +2030,4 @@ MonoBehaviour:
   animator: {fileID: 944662923420890308}
   damage: 1
   ufoHealth: 2
+  ufoScore: 2

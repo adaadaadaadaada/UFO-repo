@@ -6,10 +6,18 @@ using UnityEngine.SceneManagement;
 public class GameOver : MonoBehaviour
 {
     public GameObject loseScreen;
+    public Health health;
 
-    public void Setup(int score)
+    private void Update()
     {
-        if (Healthbar.emptyHearts == true)
+        Setup();
+    }
+
+    public void Setup()
+    {
+        print("playerhealth " + health.currentHealth);
+
+        if (health.currentHealth <= 0)
         {
             loseScreen.SetActive(true);
         }
