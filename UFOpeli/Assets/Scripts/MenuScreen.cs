@@ -40,6 +40,7 @@ public class MenuScreen : MonoBehaviour
 
     public void startButton()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Game");
     }
 

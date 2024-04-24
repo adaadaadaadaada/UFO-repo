@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,11 +13,26 @@ public class PlayerController : MonoBehaviour
     private Quaternion Quaternion_Rotate_To;
 
     public ProjectileBehavior ProjectilePrefab;
-    public Transform LaunchOffset;
-    [SerializeField] private GameObject bullet;
-    private GameObject bulletInst;
 
-    public float fireRate = 1f;
+    public Transform middleLaunchOffset;
+    public Transform right1LaunchOffset;
+    public Transform right2LaunchOffset;
+    public Transform left1LaunchOffset;
+    public Transform left2LaunchOffset;
+
+    [SerializeField] private GameObject bullet1;
+    [SerializeField] private GameObject bullet2;
+    [SerializeField] private GameObject bullet3;
+    [SerializeField] private GameObject bullet4;
+    [SerializeField] private GameObject bullet5;
+
+    private GameObject bulletInst1;
+    private GameObject bulletInst2;
+    private GameObject bulletInst3;
+    private GameObject bulletInst4;
+    private GameObject bulletInst5;
+
+    public float fireRate = 10f;
     private float nextFire;
 
     public int healthpoints = 5;
@@ -46,7 +62,11 @@ public class PlayerController : MonoBehaviour
             {
                 nextFire = Time.time + fireRate;
 
-                bulletInst = Instantiate(bullet, LaunchOffset.position, transform.rotation);
+                bulletInst1 = Instantiate(bullet1, middleLaunchOffset.position, middleLaunchOffset.rotation);
+                bulletInst2 = Instantiate(bullet2, right1LaunchOffset.position, right1LaunchOffset.rotation);
+                bulletInst3 = Instantiate(bullet3, right2LaunchOffset.position, right2LaunchOffset.rotation);
+                bulletInst4 = Instantiate(bullet4, left1LaunchOffset.position, left1LaunchOffset.rotation);
+                bulletInst5 = Instantiate(bullet5, left2LaunchOffset.position, left2LaunchOffset.rotation);
             }
         }
     }

@@ -53,7 +53,6 @@ public class UfoMovement : MonoBehaviour
 
             if (UImanager.ufoCount == 0)
             {
-                print("ufocount: " + UImanager.ufoCount);
                 if (UfoMovement.hasHitBottomScreen == true)
                 {
                     health.TakeDamage(damage);
@@ -70,7 +69,7 @@ public class UfoMovement : MonoBehaviour
             {
                 animator.SetBool("hit", true);
                 Destroy(gameObject, 0.1f);
-                UImanager.score += ufoScore;
+                uimanager.score += ufoScore;
             }
         }
     }

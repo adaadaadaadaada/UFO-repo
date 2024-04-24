@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\ufomovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ufomovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|c:\\users\\s2101097\\onedrive - business college helsinki\\peliohjelmointi\\ufo-repo\\ufopeli\\assets\\scripts\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,8 +11,28 @@
       "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectilebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\ufomovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ufomovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|c:\\users\\s2101097\\onedrive - business college helsinki\\peliohjelmointi\\ufo-repo\\ufopeli\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6210E3A-BB41-D8F9-649B-0C389FD052A2}|Assembly-CSharp.csproj|C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,8 +46,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwCQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:46:34.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UImanager.cs",
+              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UImanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UImanager.cs",
+              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UImanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UImanager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T10:57:10.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:44:35.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectileBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\ProjectileBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileBehavior.cs",
+              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\ProjectileBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProjectileBehavior.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:48:06.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UfoMovement.cs",
+              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UfoMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UfoMovement.cs",
+              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UfoMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UfoMovement.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:28:19.153Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -56,40 +120,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuScreen.cs",
               "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\MenuScreen.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuScreen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAmAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAywCoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T16:30:15.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T14:44:35.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UfoMovement.cs",
-              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UfoMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UfoMovement.cs",
-              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UfoMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UfoMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T14:28:19.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Healthbar.cs",
               "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\Healthbar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Healthbar.cs",
@@ -97,34 +135,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Healthbar.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T12:52:08.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UImanager.cs",
-              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UImanager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UImanager.cs",
-              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\UImanager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UImanager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:57:10.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameOver.cs",
-              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\GameOver.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOver.cs",
-              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\GameOver.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameOver.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA4wAsAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T15:50:06.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T12:52:08.791Z"
             },
             {
               "$type": "Document",
@@ -136,34 +147,19 @@
               "RelativeToolTip": "Assets\\Scripts\\Health.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:58:20.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T08:58:20.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProjectileBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\ProjectileBehavior.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ProjectileBehavior.cs",
-              "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\ProjectileBehavior.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ProjectileBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T14:48:06.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "C:\\Users\\s2101097\\OneDrive - Business College Helsinki\\Peliohjelmointi\\UFO-repo\\UFOpeli\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA4wBwAAAAfAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwB8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:45:33.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T11:45:33.224Z"
             }
           ]
         }

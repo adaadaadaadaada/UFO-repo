@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class UImanager : MonoBehaviour
 {
@@ -13,20 +14,20 @@ public class UImanager : MonoBehaviour
     /// </summary>
     /// 
 
+    public TMP_Text scoreText;
     public Health health;
 
     public static int ufoCount;
     public static int ufosShot;
-    public static int score = 0;
-    Text scoreText;
+    public int score = 0;
 
     private void Start()
     {
-        scoreText = GetComponent<Text>();
+        scoreText = GetComponent<TMP_Text>();
     }
 
     private void Update()
     {
-        scoreText.text = "Score: " + score;
+        scoreText.text = "" + score;
     }
 }
