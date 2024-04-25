@@ -28,6 +28,15 @@ public class UImanager : MonoBehaviour
 
     private void Update()
     {
-        scoreText.text = "" + score;
+        scoreText.text = "Score: " + score + "     HighScore: " +  PlayerPrefs.GetInt("HighScore");
+        CheckHighScore();
+    }
+
+    void CheckHighScore()
+    {
+        if (score > PlayerPrefs.GetInt("HighScore", 0))
+        {
+            PlayerPrefs.SetInt("HighScore", score);
+        }
     }
 }

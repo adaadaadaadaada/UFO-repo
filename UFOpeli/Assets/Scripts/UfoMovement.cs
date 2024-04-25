@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
+using UnityEngine.Rendering;
 
 public class UfoMovement : MonoBehaviour
 {
     public static bool hasHitBottomScreen = false;
 
+    public GameManager gameManager;
     public UImanager uimanager;
     public Health health;
     public Animator animator;
@@ -18,6 +20,7 @@ public class UfoMovement : MonoBehaviour
 
     private void Start()
     {
+        gameManager = GameObject.FindAnyObjectByType<GameManager>();
         uimanager = GameObject.FindAnyObjectByType<UImanager>();
         health = GameObject.FindAnyObjectByType<Health>();
         animator = GetComponent<Animator>();
@@ -69,7 +72,11 @@ public class UfoMovement : MonoBehaviour
             {
                 animator.SetBool("hit", true);
                 Destroy(gameObject, 0.1f);
+
                 uimanager.score += ufoScore;
+
+                gameManager.src.clip = gameManager.scoreSFX;
+                gameManager.src.Play();
             }
         }
     }

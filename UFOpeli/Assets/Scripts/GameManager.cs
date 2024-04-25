@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public AudioSource src;
+    public AudioClip winSFX;
+    public AudioClip loseSFX;
+    public AudioClip scoreSFX;
+
     public GameObject loseScreen;
     public Health health;
 
@@ -22,8 +27,11 @@ public class GameManager : MonoBehaviour
         if (health.currentHealth <= 0)
         {
             Time.timeScale = 0;
-            
             loseScreen.SetActive(true);
+
+            src.clip = loseSFX;
+            src.Play();
+            print("loseSFX");
         }
     }
 
@@ -34,10 +42,14 @@ public class GameManager : MonoBehaviour
 
     private void Win()
     {
-        if (uimanager.score >= 9999)
+        if (uimanager.score >= 15)
         {
             Time.timeScale = 0;
             winScreen.SetActive(true);
+
+            src.clip = winSFX;
+            src.Play();
+            print("winSFX");
         }
     }
 }
