@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
-    public float Rotation_Speed;
-    public float Rotation_Friction; //The smaller the value, the more Friction there is. [Keep this at 1 unless you know what you are doing].
-    public float Rotation_Smoothness; //Believe it or not, adjusting this before anything else is the best way to go.
+    public float Rotation_Speed = 0.5f;
+    public float Rotation_Friction = 2.0f; //The smaller the value, the more Friction there is. [Keep this at 1 unless you know what you are doing].
+    public float Rotation_Smoothness = 3.0f; //Believe it or not, adjusting this before anything else is the best way to go.
 
     private float Resulting_Value_from_Input;
     private Quaternion Quaternion_Rotate_From;

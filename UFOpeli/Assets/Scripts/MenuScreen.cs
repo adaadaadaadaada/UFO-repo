@@ -42,6 +42,7 @@ public class MenuScreen : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Game");
+        Screen.SetResolution(800, 600, false);
     }
 
     public void quitButton()

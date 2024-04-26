@@ -3001,8 +3001,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   src: {fileID: 2084707169}
-  winSFX: {fileID: 8300000, guid: 12cc843b151a6084fb0a49797fb53243, type: 3}
-  loseSFX: {fileID: 8300000, guid: d4e3f01c21635744aba0c688e0ce2497, type: 3}
   scoreSFX: {fileID: 8300000, guid: bdca66e6f24964f468a4b30b0abb9457, type: 3}
   loseScreen: {fileID: 295232327}
   health: {fileID: 465843906}
@@ -4414,7 +4412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1913135913
 Transform:
   m_ObjectHideFlags: 0
